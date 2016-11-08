@@ -1,0 +1,106 @@
+
+	body{
+		background-color: #ECF0F1;
+		margin: 0px;
+		font-family: "Franklin Gothic Medium";
+	}
+	nav {
+		text-align:center;
+		border-width: 1px;
+		background-color: black;
+	}
+	.active{
+		color: orange;
+	}
+	ul{
+		padding-left: 0px;
+		margin: 0px;
+	}
+	li ul {
+		display:inline-block;
+		list-style:none; 
+	}
+	li{
+		display: inline-block;
+	}
+	a{
+		text-decoration: none;
+		display:block;
+		color:white;
+		padding: 8px;
+	}
+	a:hover{
+		color: orange;
+	}
+	main{
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+	}
+	header h1{
+		text-align: center;
+		color: black;
+		font-size: 50px;
+	}
+	header{
+		padding: 25px;
+		background-color: white;
+	}
+	.binfo, td{
+		text-align: center;
+	}
+	.binfo{
+		width: 500px;
+	}
+	h2{
+		margin-bottom: 4px;
+		text-align: center;
+	}
+	article{
+		margin: auto;
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+		max-width: 900px;
+	}
+	span{
+		display: flex;
+		justify-content: center;
+	}
+	a.btn {
+   		appearance: button;
+    	text-decoration: none;
+    	color: white;
+		width: 205px;
+		height: 24px;
+		padding: 5px;
+		padding-top: 7px;
+		border: solid 0px;
+		background: #ffa545;
+		text-decoration: none;
+		margin:auto;
+		margin-top: 20px;
+		text-align: center;
+	}
+	a.btn:hover {
+		background: #fcdc3c;
+		text-decoration: none;
+	}
+	#postdetail{
+		display: flex;
+		font-size: 13px;
+		opacity: 0.6;
+	}
+	#postdetail p{
+		margin: 5px;
+	}
+	#postdesc{
+		display: flex;
+	}
+	#post{
+		padding: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: white;
+		-webkit-box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02); -moz-box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02); box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02);
+	}

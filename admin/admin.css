@@ -1,0 +1,94 @@
+
+	body{
+		margin: 0px;
+		background-color: #ECF0F1;
+		font-family: "Franklin Gothic Medium";
+	}
+	nav {
+		text-align:center;
+		border-width: 1px;
+		background-color: black;
+	}
+	.activea{
+		color: orange;
+	}
+	ul{
+		padding-left: 0px;
+		margin: 0px;
+	}
+	li ul {
+		display:inline-block;
+		list-style:none; 
+	}
+	li{
+		display: inline-block;
+	}
+	a{
+		text-decoration: none;
+		display:block;
+		color:white;
+		padding: 8px;
+	}
+	a:hover{
+		color: orange;
+	}
+	main{
+		text-align: center;
+	}
+	header h1{
+		text-align: center;
+		color: black;
+		font-size: 50px;
+	}
+	header{
+		padding: 25px;
+		background-color: white;
+	}
+	#btndec{
+		font-size: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 230px;
+		padding: 30px;
+		margin: 20px;
+		background-color: white;
+		-webkit-box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02); -moz-box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02); box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02);
+	}
+	article div{
+		display: flex;
+		justify-content: center;
+	}
+	article{
+		margin: auto;
+		margin-top: 80px;
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1000px;
+	}
+	a.btn {
+   		appearance: button;
+    	text-decoration: none;
+    	color: white;
+		width: 205px;
+		height: 24px;
+		padding: 5px;
+		padding-top: 7px;
+		border: solid 0px;
+		background: #ffa545;
+		text-decoration: none;
+		margin:auto;
+		margin-top: 20px;
+		text-align: center;
+	}
+	a.btn:hover {
+		background: #fcdc3c;
+		text-decoration: none;
+	}
+	p{
+		margin-top: 0px;
+	}
+	.btd{
+		font-size: 13px;
+		opacity: 0.6;
+	}

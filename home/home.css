@@ -1,0 +1,109 @@
+
+	body{
+		margin: 0px;
+		background-color: #ECF0F1;
+		font-family: "Franklin Gothic Medium";
+	}
+	nav {
+		text-align:center;
+		border-width: 1px;
+		background-color: black;
+	}
+	.active{
+		color: orange;
+	}
+	ul{
+		padding-left: 0px;
+		margin: 0px;
+	}
+	li ul {
+		display:inline-block;
+		list-style:none; 
+	}
+	li{
+		display: inline-block;
+	}
+	a{
+		text-decoration: none;
+		display:block;
+		color:white;
+		padding: 8px;
+	}
+	a:hover{
+		color: orange;
+	}
+	main{
+		padding: 40px;
+		text-align: center;
+	}
+	header h1{
+		text-align: center;
+		color: black;
+		font-size: 50px;
+	}
+	header{
+		padding: 25px;
+		background-color: white;
+	}
+	article h2{
+		margin-bottom: 4px;
+	}
+	#h2{
+		color: black;
+		margin-bottom: 4px;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	article{
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		max-width: 900px;
+	}
+	span{
+		display: flex;
+		justify-content: center;
+	}
+	#postdetail{
+		display: flex;
+		max-width: 100px;
+		color: black;
+		font-size: 13px;
+		opacity: 0.6;
+	}
+	#postdetail:hover{
+		color: orange;
+	}
+	#postdetail p{
+		margin: 5px;
+	}
+	#postdesc{
+		display: flex;
+		overflow: hidden;
+		max-height: 55px;
+	}
+	#post{
+		padding: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: white;
+		-webkit-box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02); -moz-box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02); box-shadow: 0px 0px 17px 8px rgba(0, 0, 0,0.02);
+	}
+	a.btn {
+   		appearance: button;
+    	text-decoration: none;
+    	color: white;
+		width: 205px;
+		height: 24px;
+		padding: 5px;
+		padding-top: 7px;
+		border: solid 0px;
+		background: black;
+		text-decoration: none;
+		margin:40px;
+		text-align: center;
+	}
+	a.btn:hover {
+		color: orange;
+		text-decoration: none;
+	}
